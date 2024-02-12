@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <suite name="SampleSuite" thread-count="2" parallel="class">
+
+	<test  name="ModuleOneTest">
+	
+  
+    <classes>
+      <class name="testScripts.SampleOneTest"/>
+     
+      
+    </classes>
+  </test>
+   <!-- TestModule -->
+   
+</sui> <!-- SampleSuite -->
