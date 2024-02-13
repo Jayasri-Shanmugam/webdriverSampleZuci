@@ -31,6 +31,11 @@ public class WebTableTest
 	  String str=driver.findElement(By.xpath("//td[text()='B. Wagner']//following-sibling::td[5]")).getText();
 	  System.out.println(str);
 	  
+	  System.out.println("Test");
+	  String strLocation=driver.findElement(By.xpath("\n"+"//td[text()='Wagner']//following-sibling::td[2]")).getText();
+	  System.out.println("Location....." +strLocation);
+	  
 	  //when giving an extra index ...find Element throws exception
   }
+  
 }
