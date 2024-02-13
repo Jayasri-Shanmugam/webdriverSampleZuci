@@ -90,6 +90,8 @@ public class SampleOneTest
 	  searchbox.sendKeys("Selenium Tutorial");
 	  
 	  searchbox.sendKeys(Keys.ENTER);
+
+	  System.out.println("Searching is being done");
 	  
 	  Assert.assertEquals(driver.getTitle(),"Selenium Tutorial - Google Search");
 	  
