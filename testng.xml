@@ -2,7 +2,7 @@
 <suite name="SampleSuite" thread-count="2" parallel="class">
 <test name="ModuleOneTest">
 <classes>
-<class name="testScripts.SampleOneTest"/>
+<class name="testScripts.DropDownTest"/>
 
 ...
 </classes>
