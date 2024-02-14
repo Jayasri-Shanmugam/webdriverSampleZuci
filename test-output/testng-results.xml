@@ -1,25 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-12T07:24:46 IST" name="Default suite" finished-at="2024-02-12T07:24:46 IST" duration-ms="367">
+  <suite started-at="2024-02-14T15:09:37 IST" name="Default suite" finished-at="2024-02-14T15:09:46 IST" duration-ms="9405">
     <groups>
     </groups>
-    <test started-at="2024-02-12T07:24:46 IST" name="Default test" finished-at="2024-02-12T07:24:46 IST" duration-ms="367">
-      <class name="testScripts.EmpDBTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.EmpDBTest@49049a04]" started-at="2024-02-12T07:24:46 IST" name="setUp" finished-at="2024-02-12T07:24:46 IST" duration-ms="335" status="PASS">
+    <test started-at="2024-02-14T15:09:37 IST" name="Default test" finished-at="2024-02-14T15:09:46 IST" duration-ms="9405">
+      <class name="testScripts.SampleOneTest">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:testScripts.SampleOneTest@2dc54ad4]" started-at="2024-02-14T15:09:37 IST" name="setupExtent" finished-at="2024-02-14T15:09:37 IST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:testScripts.EmpDBTest@49049a04]" started-at="2024-02-12T07:24:46 IST" name="test" finished-at="2024-02-12T07:24:46 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.SampleOneTest@2dc54ad4]" started-at="2024-02-14T15:09:37 IST" name="setup" finished-at="2024-02-14T15:09:40 IST" duration-ms="2391" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.EmpDBTest@49049a04]" started-at="2024-02-12T07:24:46 IST" name="tearDown" finished-at="2024-02-12T07:24:46 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="java()[pri:0, instance:testScripts.SampleOneTest@2dc54ad4]" started-at="2024-02-14T15:09:40 IST" name="java" finished-at="2024-02-14T15:09:42 IST" duration-ms="2221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testScripts.EmpDBTest -->
+        </test-method> <!-- java -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testScripts.SampleOneTest@2dc54ad4]" started-at="2024-02-14T15:09:42 IST" name="teardown" finished-at="2024-02-14T15:09:42 IST" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=java status=SUCCESS method=SampleOneTest.java()[pri:0, instance:testScripts.SampleOneTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.SampleOneTest@2dc54ad4]" started-at="2024-02-14T15:09:42 IST" name="setup" finished-at="2024-02-14T15:09:44 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selenium()[pri:0, instance:testScripts.SampleOneTest@2dc54ad4]" started-at="2024-02-14T15:09:44 IST" name="selenium" finished-at="2024-02-14T15:09:46 IST" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testScripts.SampleOneTest@2dc54ad4]" started-at="2024-02-14T15:09:46 IST" name="teardown" finished-at="2024-02-14T15:09:46 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selenium status=SUCCESS method=SampleOneTest.selenium()[pri:0, instance:testScripts.SampleOneTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="finishExtent()[pri:0, instance:testScripts.SampleOneTest@2dc54ad4]" started-at="2024-02-14T15:09:46 IST" name="finishExtent" finished-at="2024-02-14T15:09:46 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishExtent -->
+      </class> <!-- testScripts.SampleOneTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

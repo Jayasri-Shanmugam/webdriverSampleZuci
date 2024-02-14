@@ -3,6 +3,7 @@
 <test name="ModuleOneTest">
 <classes>
 <class name="testScripts.SampleOneTest"/>
+
 ...
 </classes>
 ...

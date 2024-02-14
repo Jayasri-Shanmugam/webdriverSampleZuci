@@ -5,11 +5,11 @@
     <classes>
       <class name="testScripts.SampleOneTest">
         <methods>
+          <include name="java"/>
           <include name="setupExtent"/>
           <include name="teardown"/>
           <include name="finishExtent"/>
           <include name="setup"/>
-          <include name="selenium"/>
         </methods>
       </class> <!-- testScripts.SampleOneTest -->
     </classes>
